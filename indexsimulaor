@@ -1,0 +1,1031 @@
+{
+  "locale": "pt-br",
+  "title": "Simulador de Coberturas de Seguro",
+  "description": {
+    "pt-br": "O objetivo do simulador é oferecer uma visão clara, simples e correta das coberturas."
+  },
+  "logo": "https://api.surveyjs.io/private/Surveys/files?name=d4c817bf-2040-4938-af29-6eab225abd68",
+  "logoWidth": "200px",
+  "logoHeight": "100px",
+  "logoPosition": "right",
+  "completedHtml": {
+    "pt-br": "<h3>Obrigado por utilizar o simulador de coberturas!</h3>\n"
+  },
+  "pages": [
+    {
+      "name": "page1",
+      "visibleIf": "{question2} = False",
+      "title": "Interesse Segurável\r\n",
+      "description": {
+        "pt-br": "O valor ou o bem legítimo e demonstrável que o segurado tem interesse em proteger financeiramente."
+      },
+      "navigationButtonsVisibility": "show",
+      "elements": [
+        {
+          "type": "tagbox",
+          "name": "Abrange",
+          "description": {
+            "default": "Descreva...",
+            "pt-br": "Especifique."
+          },
+          "choices": [
+            {
+              "value": "Item 1",
+              "text": "direito do segurado de receber valor de créditos tributários, exigidos ao Tomador, e alvo de  processo administrativo sobre a existência do crédito  (Objeto Principal)"
+            },
+            {
+              "value": "Item 2",
+              "text": {
+                "pt-br": "direito do segurado de receber valores diante da produção insuficiente de energia elétrica acordada em contrato junto ao Tomador  (Objeto Principal)"
+              }
+            },
+            {
+              "value": "Item 3",
+              "text": {
+                "pt-br": "direito do segurado de receber valor de créditos tributários, exigidos ao Tomador no Objeto Principal por força do Regime Aduaneiro Especial de Admissão Temporária "
+              }
+            },
+            {
+              "value": "Item 4",
+              "text": {
+                "pt-br": "direito do segurado de receber os valores de multa contratual  pela inexecução da obrigação de executar a [OBRA_DE_CONSTRUÇÃO_REPARAÇÃO] pelo tomador, via Objeto Principal"
+              }
+            },
+            {
+              "value": "Item 5",
+              "text": {
+                "pt-br": "direito do segurado de receber os valores de multa contratual pela inexecução da obrigação de fornecer [MERCADORIAS/ PRODUTOS] pelo tomador, via Objeto Principal"
+              }
+            },
+            {
+              "value": "Item 6",
+              "text": {
+                "pt-br": "direito do segurado de contratar terceiro, no mesmo valor da contratação inicial, para realizar a obrigação de fornecer [MERCADORIAS/ PRODUTOS] decorrente do Objeto Principal"
+              }
+            },
+            {
+              "value": "Item 7",
+              "text": {
+                "pt-br": "direito do segurado de receber multa determinada no edital de licitação pela recusa do tomador em assinar o contrato nas condições ou fora do prazo estabelecido no edital"
+              }
+            },
+            {
+              "value": "Item 8",
+              "text": {
+                "pt-br": "direito do segurado de receber  os valores retidos devido ao descumprimento das obrigações estabelecidas na cláusula [XYZ] do contrato assinado com o tomador (Obrigação Principal)"
+              }
+            },
+            {
+              "value": "Item 9",
+              "text": {
+                "pt-br": "direito do segurado de receber multas e penalidades contratuais impostas ao tomador diante do descumprimento das claúsulas [XYZ]  do contrato assinado com o tomador (Obrigação Principal)"
+              }
+            },
+            {
+              "value": "Item 10",
+              "text": {
+                "pt-br": "direito do segurado de receber os valores de multa contratual  pela inexecução da obrigação de fornecimento de [SERVIÇOS/PRODUTOS] previstos no [CONTRATO_DE_CONCESSÃO] pelo tomador, via Objeto Principal"
+              }
+            },
+            {
+              "value": "Item 11",
+              "text": {
+                "pt-br": "direito do segurado de contratar terceiro, no mesmo valor da contratação inicial, para realizar a obrigação de fornecer o [SERVIÇOS/PRODUTOS] previsto no [CONTRATO_DE_CONCESSÃO] decorrente do Objeto Principal"
+              }
+            },
+            {
+              "value": "Item 12",
+              "text": {
+                "pt-br": "direito do segurado de receber valor do depósito recursal apresentado pelo tomador através de [RECURSO] à decisão no Objeto Principal"
+              }
+            },
+            {
+              "value": "Item 13",
+              "text": {
+                "pt-br": "direito do segurado de receber valor do depósito recursal apresentado pelo Tomador através de [RECURSO] à decisão no Objeto Principal"
+              }
+            },
+            {
+              "value": "Item 14",
+              "text": {
+                "pt-br": "direito do segurado de receber valor integral (principal e encargos acessórios) de condenação do Tomador transitada em julgado no processo judicial especificado (Objeto Principal)"
+              }
+            },
+            {
+              "value": "Item 15",
+              "text": {
+                "pt-br": "direito do segurado de receber os valores pagos antecipadamente ao tomador para a execução das obrigações de [FAZER_DAR], referentes a [SERVICO_OBRA_PRODUTO], descritas na cláusula [XYZ] do contrato de [FORNECIMENTO_CONSTRUCAO_CONCESSAO] (Objeto Principal)"
+              }
+            },
+            {
+              "value": "Item 16",
+              "text": {
+                "pt-br": "direito do segurado de receber multas e penalidades contratuais impostas ao tomador diante do descumprimento das claúsulas [XYZ]  do contrato assinado com o tomador (Obrigação Principal)"
+              }
+            },
+            {
+              "value": "Item 17",
+              "text": {
+                "pt-br": "direito do segurado de receber os valores de multa contratual  pela inexecução da obrigação de executar a [OBRA_DE_CONSTRUÇÃO_REPARAÇÃO] pelo tomador, via Objeto Principal"
+              }
+            },
+            {
+              "value": "Item 18",
+              "text": {
+                "pt-br": "direito do segurado de de contratar terceiro, no mesmo valor da contratação inicial, para realizar a obrigação de executar a [OBRA_DE_CONSTRUÇÃO_REPARAÇÃO] não efetuada pelo tomador, via Objeto Principal"
+              }
+            },
+            {
+              "value": "Item 19",
+              "text": {
+                "pt-br": "direito do segurado de receber os valores de multa contratual  pela inexecução da obrigação de executar a [MANUTENCAO_CORRETIVA] pelo tomador, via Objeto Principal"
+              }
+            },
+            {
+              "value": "Item 20",
+              "text": {
+                "pt-br": "direito do segurado de de contratar terceiro, no mesmo valor da contratação inicial, para realizar a obrigação de executar a [MANUTENCAO_CORRETIVA], não efetuada pelo tomador, via Objeto Principal"
+              }
+            },
+            {
+              "value": "Item 21",
+              "text": {
+                "pt-br": "direito do segurado no cumprimento de quaisquer outras obrigações residuais do Objeto principal (processo administrativo  nº [PROCESSO_ADMINISTRATIVO], em trâmite no [SECRETARIA_DA_FAZENDA] , tendo como partes o Segurado [SECRETARIA_DA_FAZENDA] e o Tomador)"
+              }
+            },
+            {
+              "value": "Item 22",
+              "text": {
+                "pt-br": "direito do segurado frente a  quaisquer outras obrigações (judiciais, contratuais e não contratuais) do tomador que sejam estranhas ao Objeto Principal"
+              }
+            },
+            {
+              "value": "Item 23",
+              "text": {
+                "pt-br": "direito do segurado no cumprimento de quaisquer outras obrigações residuais do Objeto principal (Contrato de comercialização de energia elétrica n.° [CONTRATO_VENDA_ENERGIA])"
+              }
+            },
+            {
+              "value": "Item 24",
+              "text": {
+                "pt-br": "direito do segurado no cumprimento de quaisquer outras obrigações residuais do Objeto principal (Autuação nº [ ] de material para [FINALIDADE_DO_USO], conforme Declaração de Importação n.º [ ] e Termo de Responsabilidade n.º [ ])"
+              }
+            },
+            {
+              "value": "Item 25",
+              "text": {
+                "default": " ijdvuayw",
+                "pt-br": "direito do segurado no cumprimento de quaisquer outras obrigações residuais do Objeto principal (Autuação nº [ ] de material para [FINALIDADE_DO_USO], conforme Declaração de Importação n.º [ ] e Termo de Responsabilidade n.º [ ])"
+              }
+            },
+            {
+              "value": "Item 26",
+              "text": "direito do segurado de receber perdas e danos que lhes foram causados durante ou após a execução da construção [OBRA_DE_CONSTRUÇÃO_REPARAÇÃO] pelo tomador (Garantia do Construtor), em razão do não atendimento aos padrões de qualidade exigidos pelo próprio segurado"
+            },
+            {
+              "value": "Item 27",
+              "text": "direito do segurado de receber os valores de créditos trabalhistas, tributários e previdenciários correlatos à obrigação de construir, conforme estabelecido no Objeto Principal (Contrato n.º [CONTRATO_OBRA_DE_CONSTRUÇÃO_REPARAÇÃO])."
+            },
+            {
+              "value": "Item 28",
+              "text": "direito do segurado de receber perdas e danos que lhes foram causados durante a execução da construção [OBRA_DE_CONSTRUÇÃO_REPARAÇÃO] pelo tomador"
+            },
+            {
+              "value": "Item 29",
+              "text": "direito do segurado de receber perdas e danos que foram causados a terceiros durante a execução da construção [OBRA_DE_CONSTRUÇÃO_REPARAÇÃO] pelo tomador"
+            },
+            {
+              "value": "Item 30",
+              "text": "direito do segurado de receber perdas e danos que lhes foram causados após a execução da construção [OBRA_DE_CONSTRUÇÃO_REPARAÇÃO] pelo tomador (Garantia do Construtor)"
+            },
+            {
+              "value": "Item 31",
+              "text": "direito do segurado de receber perdas e danos que foram causados a terceiros após a execução da construção [OBRA_DE_CONSTRUÇÃO_REPARAÇÃO] pelo tomador (Garantia do Construtor)"
+            },
+            {
+              "value": "Item 32",
+              "text": "direito do segurado de receber os valores de créditos trabalhistas, tributários e previdenciários correlatos à obrigação de construir, conforme estabelecido no Objeto Principal (Contrato n.º [MERCADORIAS/PRODUTOS])."
+            },
+            {
+              "value": "Item 33",
+              "text": "direito do segurado de receber perdas e danos que lhes foram causados durante o fornecimento [MERCADORIAS/ PRODUTOS] pelo tomador"
+            },
+            {
+              "value": "Item 34",
+              "text": "direito do segurado de receber perdas e danos que foram causados a terceiros durante o fornecimento [MERCADORIAS/ PRODUTOS] pelo tomador"
+            },
+            {
+              "value": "Item 35",
+              "text": "direito do segurado de receber perdas e danos que lhes foram causados após a execução da construção [MERCADORIAS/ PRODUTOS] pelo tomador "
+            },
+            {
+              "value": "Item 36",
+              "text": "direito do segurado de receber perdas e danos que foram causados a terceiros após o  fornecimento [MERCADORIAS/ PRODUTOS] pelo tomador"
+            },
+            {
+              "value": "Item 37",
+              "text": "direito do segurado em exigir qualidade ou execução do objeto da licitação (Objeto Principal)"
+            },
+            {
+              "value": "Item 38",
+              "text": {
+                "default": "o direito do segurado na execução do contrato (Objeto Principal) ",
+                "pt-br": "direito do segurado na execução do contrato (Objeto Principal) "
+              }
+            },
+            {
+              "value": "Item 39",
+              "text": "direito do segurado de receber os valores de créditos trabalhistas, tributários e previdenciários correlatos à obrigação de fornecer [SERVIÇOS/PRODUTOS], conforme estabelecido no Objeto Principal (Contrato n.º [CONTRATO_DE_CONCESSÃO])."
+            },
+            {
+              "value": "Item 40",
+              "text": "direito do segurado de receber perdas e danos que lhes foram causados durante o fornecimento de [SERVIÇOS/PRODUTOS] previstos no [CONTRATO_DE_CONCESSÃO] "
+            },
+            {
+              "value": "Item 41",
+              "text": "direito do segurado de receber perdas e danos que foram causados a terceiros durante o fornecimento de [SERVIÇOS/PRODUTOS] previstos no [CONTRATO_DE_CONCESSÃO] "
+            },
+            {
+              "value": "Item 42",
+              "text": "direito do segurado de receber perdas e danos que lhes foram causados após a execução do fornecimento de [SERVIÇOS/PRODUTOS] previstos no [CONTRATO_DE_CONCESSÃO] "
+            },
+            {
+              "value": "Item 43",
+              "text": "direito do segurado de receber perdas e danos que foram causados a terceiros após o  fornecimento  [SERVIÇOS/PRODUTOS] previstos no [CONTRATO_DE_CONCESSÃO] "
+            },
+            {
+              "value": "Item 44",
+              "text": "direito do segurado em receber do tomador valor integral (principal e encargos acessórios) de condenação transitada em julgado no processo judicial especificado (Objeto Principal)"
+            },
+            {
+              "value": "Item 45",
+              "text": "direito do segurado em receber do tomador valor integral (principal e encargos acessórios) de condenação transitada em julgado no processo judicial especificado (Objeto Principal)"
+            }
+          ],
+          "choicesOrder": "asc",
+          "otherText": {
+            "pt-br": "1 Outros (descrever)"
+          },
+          "colCount": 2
+        },
+        {
+          "type": "tagbox",
+          "name": "Não Abrange",
+          "startWithNewLine": false,
+          "description": {
+            "default": "Descreva...",
+            "pt-br": "Especifique."
+          },
+          "hideNumber": true,
+          "choices": [
+            {
+              "value": "Item 1",
+              "text": "direito do segurado de receber valor de créditos tributários, exigidos ao Tomador, e alvo de  processo administrativo sobre a existência do crédito  (Objeto Principal)"
+            },
+            {
+              "value": "Item 2",
+              "text": {
+                "pt-br": "direito do segurado de receber valores diante da produção insuficiente de energia elétrica acordada em contrato junto ao Tomador  (Objeto Principal)"
+              }
+            },
+            {
+              "value": "Item 3",
+              "text": {
+                "pt-br": "direito do segurado de receber valor de créditos tributários, exigidos ao Tomador no Objeto Principal por força do Regime Aduaneiro Especial de Admissão Temporária "
+              }
+            },
+            {
+              "value": "Item 4",
+              "text": {
+                "pt-br": "direito do segurado de receber os valores de multa contratual  pela inexecução da obrigação de executar a [OBRA_DE_CONSTRUÇÃO_REPARAÇÃO] pelo tomador, via Objeto Principal"
+              }
+            },
+            {
+              "value": "Item 5",
+              "text": {
+                "pt-br": "direito do segurado de receber os valores de multa contratual pela inexecução da obrigação de fornecer [MERCADORIAS/ PRODUTOS] pelo tomador, via Objeto Principal"
+              }
+            },
+            {
+              "value": "Item 6",
+              "text": {
+                "pt-br": "direito do segurado de contratar terceiro, no mesmo valor da contratação inicial, para realizar a obrigação de fornecer [MERCADORIAS/ PRODUTOS] decorrente do Objeto Principal"
+              }
+            },
+            {
+              "value": "Item 7",
+              "text": {
+                "pt-br": "direito do segurado de receber multa determinada no edital de licitação pela recusa do tomador em assinar o contrato nas condições ou fora do prazo estabelecido no edital"
+              }
+            },
+            {
+              "value": "Item 8",
+              "text": {
+                "pt-br": "direito do segurado de receber  os valores retidos devido ao descumprimento das obrigações estabelecidas na cláusula [XYZ] do contrato assinado com o tomador (Obrigação Principal)"
+              }
+            },
+            {
+              "value": "Item 9",
+              "text": {
+                "pt-br": "direito do segurado de receber multas e penalidades contratuais impostas ao tomador diante do descumprimento das claúsulas [XYZ]  do contrato assinado com o tomador (Obrigação Principal)"
+              }
+            },
+            {
+              "value": "Item 10",
+              "text": {
+                "pt-br": "direito do segurado de receber os valores de multa contratual  pela inexecução da obrigação de fornecimento de [SERVIÇOS/PRODUTOS] previstos no [CONTRATO_DE_CONCESSÃO] pelo tomador, via Objeto Principal"
+              }
+            },
+            {
+              "value": "Item 11",
+              "text": {
+                "pt-br": "direito do segurado de contratar terceiro, no mesmo valor da contratação inicial, para realizar a obrigação de fornecer o [SERVIÇOS/PRODUTOS] previsto no [CONTRATO_DE_CONCESSÃO] decorrente do Objeto Principal"
+              }
+            },
+            {
+              "value": "Item 12",
+              "text": {
+                "pt-br": "direito do segurado de receber valor do depósito recursal apresentado pelo tomador através de [RECURSO] à decisão no Objeto Principal"
+              }
+            },
+            {
+              "value": "Item 13",
+              "text": {
+                "pt-br": "direito do segurado de receber valor do depósito recursal apresentado pelo Tomador através de [RECURSO] à decisão no Objeto Principal"
+              }
+            },
+            {
+              "value": "Item 14",
+              "text": {
+                "pt-br": "direito do segurado de receber valor integral (principal e encargos acessórios) de condenação do Tomador transitada em julgado no processo judicial especificado (Objeto Principal)"
+              }
+            },
+            {
+              "value": "Item 15",
+              "text": {
+                "pt-br": "direito do segurado de receber os valores pagos antecipadamente ao tomador para a execução das obrigações de [FAZER_DAR], referentes a [SERVICO_OBRA_PRODUTO], descritas na cláusula [XYZ] do contrato de [FORNECIMENTO_CONSTRUCAO_CONCESSAO] (Objeto Principal)"
+              }
+            },
+            {
+              "value": "Item 16",
+              "text": {
+                "pt-br": "direito do segurado de receber multas e penalidades contratuais impostas ao tomador diante do descumprimento das claúsulas [XYZ]  do contrato assinado com o tomador (Obrigação Principal)"
+              }
+            },
+            {
+              "value": "Item 17",
+              "text": {
+                "pt-br": "direito do segurado de receber os valores de multa contratual  pela inexecução da obrigação de executar a [OBRA_DE_CONSTRUÇÃO_REPARAÇÃO] pelo tomador, via Objeto Principal"
+              }
+            },
+            {
+              "value": "Item 18",
+              "text": {
+                "pt-br": "direito do segurado de de contratar terceiro, no mesmo valor da contratação inicial, para realizar a obrigação de executar a [OBRA_DE_CONSTRUÇÃO_REPARAÇÃO] não efetuada pelo tomador, via Objeto Principal"
+              }
+            },
+            {
+              "value": "Item 19",
+              "text": {
+                "pt-br": "direito do segurado de receber os valores de multa contratual  pela inexecução da obrigação de executar a [MANUTENCAO_CORRETIVA] pelo tomador, via Objeto Principal"
+              }
+            },
+            {
+              "value": "Item 20",
+              "text": {
+                "pt-br": "direito do segurado de de contratar terceiro, no mesmo valor da contratação inicial, para realizar a obrigação de executar a [MANUTENCAO_CORRETIVA], não efetuada pelo tomador, via Objeto Principal"
+              }
+            },
+            {
+              "value": "Item 21",
+              "text": {
+                "pt-br": "direito do segurado no cumprimento de quaisquer outras obrigações residuais do Objeto principal (processo administrativo  nº [PROCESSO_ADMINISTRATIVO], em trâmite no [SECRETARIA_DA_FAZENDA] , tendo como partes o Segurado [SECRETARIA_DA_FAZENDA] e o Tomador)"
+              }
+            },
+            {
+              "value": "Item 22",
+              "text": {
+                "pt-br": "direito do segurado frente a  quaisquer outras obrigações (judiciais, contratuais e não contratuais) do tomador que sejam estranhas ao Objeto Principal"
+              }
+            },
+            {
+              "value": "Item 23",
+              "text": {
+                "pt-br": "direito do segurado no cumprimento de quaisquer outras obrigações residuais do Objeto principal (Contrato de comercialização de energia elétrica n.° [CONTRATO_VENDA_ENERGIA])"
+              }
+            },
+            {
+              "value": "Item 24",
+              "text": {
+                "pt-br": "direito do segurado no cumprimento de quaisquer outras obrigações residuais do Objeto principal (Autuação nº [ ] de material para [FINALIDADE_DO_USO], conforme Declaração de Importação n.º [ ] e Termo de Responsabilidade n.º [ ])"
+              }
+            },
+            {
+              "value": "Item 25",
+              "text": {
+                "default": " ijdvuayw",
+                "pt-br": "direito do segurado no cumprimento de quaisquer outras obrigações residuais do Objeto principal (Autuação nº [ ] de material para [FINALIDADE_DO_USO], conforme Declaração de Importação n.º [ ] e Termo de Responsabilidade n.º [ ])"
+              }
+            },
+            {
+              "value": "Item 26",
+              "text": "direito do segurado de receber perdas e danos que lhes foram causados durante ou após a execução da construção [OBRA_DE_CONSTRUÇÃO_REPARAÇÃO] pelo tomador (Garantia do Construtor), em razão do não atendimento aos padrões de qualidade exigidos pelo próprio segurado"
+            },
+            {
+              "value": "Item 27",
+              "text": "direito do segurado de receber os valores de créditos trabalhistas, tributários e previdenciários correlatos à obrigação de construir, conforme estabelecido no Objeto Principal (Contrato n.º [CONTRATO_OBRA_DE_CONSTRUÇÃO_REPARAÇÃO])."
+            },
+            {
+              "value": "Item 28",
+              "text": "direito do segurado de receber perdas e danos que lhes foram causados durante a execução da construção [OBRA_DE_CONSTRUÇÃO_REPARAÇÃO] pelo tomador"
+            },
+            {
+              "value": "Item 29",
+              "text": "direito do segurado de receber perdas e danos que foram causados a terceiros durante a execução da construção [OBRA_DE_CONSTRUÇÃO_REPARAÇÃO] pelo tomador"
+            },
+            {
+              "value": "Item 30",
+              "text": "direito do segurado de receber perdas e danos que lhes foram causados após a execução da construção [OBRA_DE_CONSTRUÇÃO_REPARAÇÃO] pelo tomador (Garantia do Construtor)"
+            },
+            {
+              "value": "Item 31",
+              "text": "direito do segurado de receber perdas e danos que foram causados a terceiros após a execução da construção [OBRA_DE_CONSTRUÇÃO_REPARAÇÃO] pelo tomador (Garantia do Construtor)"
+            },
+            {
+              "value": "Item 32",
+              "text": "direito do segurado de receber os valores de créditos trabalhistas, tributários e previdenciários correlatos à obrigação de construir, conforme estabelecido no Objeto Principal (Contrato n.º [MERCADORIAS/PRODUTOS])."
+            },
+            {
+              "value": "Item 33",
+              "text": "direito do segurado de receber perdas e danos que lhes foram causados durante o fornecimento [MERCADORIAS/ PRODUTOS] pelo tomador"
+            },
+            {
+              "value": "Item 34",
+              "text": "direito do segurado de receber perdas e danos que foram causados a terceiros durante o fornecimento [MERCADORIAS/ PRODUTOS] pelo tomador"
+            },
+            {
+              "value": "Item 35",
+              "text": "direito do segurado de receber perdas e danos que lhes foram causados após a execução da construção [MERCADORIAS/ PRODUTOS] pelo tomador "
+            },
+            {
+              "value": "Item 36",
+              "text": "direito do segurado de receber perdas e danos que foram causados a terceiros após o  fornecimento [MERCADORIAS/ PRODUTOS] pelo tomador"
+            },
+            {
+              "value": "Item 37",
+              "text": "direito do segurado em exigir qualidade ou execução do objeto da licitação (Objeto Principal)"
+            },
+            {
+              "value": "Item 38",
+              "text": {
+                "default": "o direito do segurado na execução do contrato (Objeto Principal) ",
+                "pt-br": "direito do segurado na execução do contrato (Objeto Principal) "
+              }
+            },
+            {
+              "value": "Item 39",
+              "text": "direito do segurado de receber os valores de créditos trabalhistas, tributários e previdenciários correlatos à obrigação de fornecer [SERVIÇOS/PRODUTOS], conforme estabelecido no Objeto Principal (Contrato n.º [CONTRATO_DE_CONCESSÃO])."
+            },
+            {
+              "value": "Item 40",
+              "text": "direito do segurado de receber perdas e danos que lhes foram causados durante o fornecimento de [SERVIÇOS/PRODUTOS] previstos no [CONTRATO_DE_CONCESSÃO] "
+            },
+            {
+              "value": "Item 41",
+              "text": "direito do segurado de receber perdas e danos que foram causados a terceiros durante o fornecimento de [SERVIÇOS/PRODUTOS] previstos no [CONTRATO_DE_CONCESSÃO] "
+            },
+            {
+              "value": "Item 42",
+              "text": "direito do segurado de receber perdas e danos que lhes foram causados após a execução do fornecimento de [SERVIÇOS/PRODUTOS] previstos no [CONTRATO_DE_CONCESSÃO] "
+            },
+            {
+              "value": "Item 43",
+              "text": "direito do segurado de receber perdas e danos que foram causados a terceiros após o  fornecimento  [SERVIÇOS/PRODUTOS] previstos no [CONTRATO_DE_CONCESSÃO] "
+            },
+            {
+              "value": "Item 44",
+              "text": "direito do segurado em receber do tomador valor integral (principal e encargos acessórios) de condenação transitada em julgado no processo judicial especificado (Objeto Principal)"
+            },
+            {
+              "value": "Item 45",
+              "text": "direito do segurado em receber do tomador valor integral (principal e encargos acessórios) de condenação transitada em julgado no processo judicial especificado (Objeto Principal)"
+            }
+          ],
+          "choicesOrder": "asc"
+        },
+        {
+          "type": "text",
+          "name": "Adicionar novo interesse segurável",
+          "minWidth": "100px",
+          "startWithNewLine": false,
+          "title": {
+            "pt-br": "Adicionar: \"Abrange\""
+          },
+          "description": {
+            "pt-br": "Especifique."
+          },
+          "hideNumber": true
+        },
+        {
+          "type": "text",
+          "name": "Adicionar nao abrangente",
+          "minWidth": "100px",
+          "startWithNewLine": false,
+          "title": {
+            "pt-br": "Adicionar: \"Não abrange\""
+          },
+          "description": {
+            "pt-br": "Especifique."
+          },
+          "hideNumber": true
+        }
+      ]
+    },
+    {
+      "name": "page2",
+      "visibleIf": "{question2} = False",
+      "title": {
+        "default": "Interesse Segurável\r\n",
+        "pt-br": "Riscos"
+      },
+      "description": {
+        "pt-br": "Os eventos que podem causar danos ou perdas."
+      },
+      "navigationButtonsVisibility": "show",
+      "elements": [
+        {
+          "type": "tagbox",
+          "name": "Riscos Aceitos",
+          "description": {
+            "default": "Descreva...",
+            "pt-br": "Especifique."
+          },
+          "choices": [
+            {
+              "value": "Item 1",
+              "text": " Inadimplemento absoluto da obrigação do tomador em  pagar valor do crédito tributário quando exigido o cumprimento pelo órgão administrativo através de desfavorável , final e definitiva"
+            },
+            {
+              "value": "Item 2",
+              "text": {
+                "pt-br": "Inadimplemento absoluto da obrigação do tomador em  pagar os valores decorrentes do volume de energia não produzido"
+              }
+            },
+            {
+              "value": "Item 3",
+              "text": {
+                "pt-br": "Inadimplemento absoluto da obrigação tomador em pagar os créditos tributários por força do Termo de Responsabilidade "
+              }
+            },
+            {
+              "value": "Item 4",
+              "text": "Inadimplemento absoluto da obrigação tomador em pagar os créditos tributários por força do Termo de Responsabilidade "
+            },
+            {
+              "value": "Item 5",
+              "text": "Inadimplemento absoluto da obrigação do tomador em construir [OBRA_DE_CONSTRUÇÃO_REPARAÇÃO]"
+            },
+            {
+              "value": "Item 6",
+              "text": "Inadimplemento absoluto da obrigação do tomador em realizar a obrigação de fornecer [MERCADORIAS]"
+            },
+            {
+              "value": "Item 7",
+              "text": "Inadimplemento absoluto da obrigação do tomador em assinar o contrato principal nas condições propostas e/ou dentro do prazo estabelecido no Edital de Licitação nº [LICITACAO]"
+            },
+            {
+              "value": "Item 8",
+              "text": "Inadimplemento do Tomador, para com o Segurado, via retenção dos valores devidos contratualmente  "
+            },
+            {
+              "value": "Item 9",
+              "text": "Inadimplemento absoluto da obrigação do tomador em fornecer [SERVIÇOS/PRODUTOS] previstos no [CONTRATO_DE_CONCESSÃO] "
+            },
+            {
+              "value": "Item 10",
+              "text": "Inadimplemento absoluto da obrigação do tomador em pagar valor do depósito recursal quando exigido o cumprimento pelo órgão judicial através de desfavorável, final e definitiva"
+            },
+            {
+              "value": "Item 11",
+              "text": "Inadimplemento absoluto do tomador da obrigação de pagar valor do depósito recursal quando exigido o cumprimento pelo órgão judicial através de desfavorável, final e definitiva"
+            },
+            {
+              "value": "Item 12",
+              "text": "Inadimplemento absoluto do Tomador da obrigação de pagar valor integral da condenação quando exigido o cumprimento pelo órgão judicial através de desfavorável, final e definitiva"
+            },
+            {
+              "value": "Item 13",
+              "text": "Inadimplemento absoluto da obrigação do tomador em pagar os valores decorrentes das obrigações de [FAZER_DAR] [SERVICO_OBRA_PRODUTO, previstos no [FORNECIMENTO_CONSTRUCAO_CONCESSAO] "
+            },
+            {
+              "value": "Item 14",
+              "text": "Inadimplemento do Tomador, para com o Segurado, via retenção dos valores devidos contratualmente  "
+            },
+            {
+              "value": "Item 15",
+              "text": "Inadimplemento absoluto da obrigação do tomador em construir [OBRA_DE_CONSTRUÇÃO_REPARAÇÃO]"
+            },
+            {
+              "value": "Item 16",
+              "text": "Inadimplemento absoluto da obrigação do tomador em realizar a [MANUTENCAO_CORRETIVA] prevista em  (Contrato n.º [CONTRATO_OBRA_DE_CONSTRUÇÃO_REPARAÇÃO])"
+            },
+            {
+              "value": "Item 17",
+              "text": "Inadimplemento absoluto do tomador perante o segurado por qualquer outra responsabilidade estranha ao Objeto Principal"
+            },
+            {
+              "value": "Item 18",
+              "text": "Inadimplemento absoluto do tomador perante o segurado por qualquer outra responsabilidade estranha à responsabilidade de a execução da construção [OBRA_DE_CONSTRUÇÃO_REPARAÇÃO]"
+            },
+            {
+              "value": "Item 19",
+              "text": "Inadimplemento absoluto do tomador perante o segurado por qualquer outra responsabilidade estranha à responsabilidade de fornecer [MERCADORIA]"
+            },
+            {
+              "value": "Item 20",
+              "text": "Inadimplemento absoluto do tomador do valor integral da decisão judicial (valor principal e encargos acessórios da dívida) estabelecida no Objeto Principal"
+            },
+            {
+              "value": "Item 21",
+              "text": "Inadimplemento absoluto do tomador perante o segurado por qualquer outra responsabilidade estranha à responsabilidade de execução das obrigações de [FAZER_DAR] [SERVICO_OBRA_PRODUTO, previstos no [FORNECIMENTO_CONSTRUCAO_CONCESSAO]  "
+            }
+          ],
+          "colCount": 2
+        },
+        {
+          "type": "tagbox",
+          "name": "Riscos Excluídos",
+          "startWithNewLine": false,
+          "title": {
+            "pt-br": "Riscos Excluídos\n"
+          },
+          "description": {
+            "default": "Descreva...",
+            "pt-br": "Especifique."
+          },
+          "hideNumber": true,
+          "choices": [
+            {
+              "value": "Item 1",
+              "text": " Inadimplemento absoluto da obrigação do tomador em  pagar valor do crédito tributário quando exigido o cumprimento pelo órgão administrativo através de desfavorável , final e definitiva"
+            },
+            {
+              "value": "Item 2",
+              "text": {
+                "pt-br": "Inadimplemento absoluto da obrigação do tomador em  pagar os valores decorrentes do volume de energia não produzido"
+              }
+            },
+            {
+              "value": "Item 3",
+              "text": {
+                "pt-br": "Inadimplemento absoluto da obrigação tomador em pagar os créditos tributários por força do Termo de Responsabilidade "
+              }
+            },
+            {
+              "value": "Item 4",
+              "text": "Inadimplemento absoluto da obrigação tomador em pagar os créditos tributários por força do Termo de Responsabilidade "
+            },
+            {
+              "value": "Item 5",
+              "text": "Inadimplemento absoluto da obrigação do tomador em construir [OBRA_DE_CONSTRUÇÃO_REPARAÇÃO]"
+            },
+            {
+              "value": "Item 6",
+              "text": "Inadimplemento absoluto da obrigação do tomador em realizar a obrigação de fornecer [MERCADORIAS]"
+            },
+            {
+              "value": "Item 7",
+              "text": "Inadimplemento absoluto da obrigação do tomador em assinar o contrato principal nas condições propostas e/ou dentro do prazo estabelecido no Edital de Licitação nº [LICITACAO]"
+            },
+            {
+              "value": "Item 8",
+              "text": "Inadimplemento do Tomador, para com o Segurado, via retenção dos valores devidos contratualmente  "
+            },
+            {
+              "value": "Item 9",
+              "text": "Inadimplemento absoluto da obrigação do tomador em fornecer [SERVIÇOS/PRODUTOS] previstos no [CONTRATO_DE_CONCESSÃO] "
+            },
+            {
+              "value": "Item 10",
+              "text": "Inadimplemento absoluto da obrigação do tomador em pagar valor do depósito recursal quando exigido o cumprimento pelo órgão judicial através de desfavorável, final e definitiva"
+            },
+            {
+              "value": "Item 11",
+              "text": "Inadimplemento absoluto do tomador da obrigação de pagar valor do depósito recursal quando exigido o cumprimento pelo órgão judicial através de desfavorável, final e definitiva"
+            },
+            {
+              "value": "Item 12",
+              "text": "Inadimplemento absoluto do Tomador da obrigação de pagar valor integral da condenação quando exigido o cumprimento pelo órgão judicial através de desfavorável, final e definitiva"
+            },
+            {
+              "value": "Item 13",
+              "text": "Inadimplemento absoluto da obrigação do tomador em pagar os valores decorrentes das obrigações de [FAZER_DAR] [SERVICO_OBRA_PRODUTO, previstos no [FORNECIMENTO_CONSTRUCAO_CONCESSAO] "
+            },
+            {
+              "value": "Item 14",
+              "text": "Inadimplemento do Tomador, para com o Segurado, via retenção dos valores devidos contratualmente  "
+            },
+            {
+              "value": "Item 15",
+              "text": "Inadimplemento absoluto da obrigação do tomador em construir [OBRA_DE_CONSTRUÇÃO_REPARAÇÃO]"
+            },
+            {
+              "value": "Item 16",
+              "text": "Inadimplemento absoluto da obrigação do tomador em realizar a [MANUTENCAO_CORRETIVA] prevista em  (Contrato n.º [CONTRATO_OBRA_DE_CONSTRUÇÃO_REPARAÇÃO])"
+            },
+            {
+              "value": "Item 17",
+              "text": "Inadimplemento absoluto do tomador perante o segurado por qualquer outra responsabilidade estranha ao Objeto Principal"
+            },
+            {
+              "value": "Item 18",
+              "text": "Inadimplemento absoluto do tomador perante o segurado por qualquer outra responsabilidade estranha à responsabilidade de a execução da construção [OBRA_DE_CONSTRUÇÃO_REPARAÇÃO]"
+            },
+            {
+              "value": "Item 19",
+              "text": "Inadimplemento absoluto do tomador perante o segurado por qualquer outra responsabilidade estranha à responsabilidade de fornecer [MERCADORIA]"
+            },
+            {
+              "value": "Item 20",
+              "text": "Inadimplemento absoluto do tomador do valor integral da decisão judicial (valor principal e encargos acessórios da dívida) estabelecida no Objeto Principal"
+            },
+            {
+              "value": "Item 21",
+              "text": "Inadimplemento absoluto do tomador perante o segurado por qualquer outra responsabilidade estranha à responsabilidade de execução das obrigações de [FAZER_DAR] [SERVICO_OBRA_PRODUTO, previstos no [FORNECIMENTO_CONSTRUCAO_CONCESSAO]  "
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "name": "Adicionar novo risco",
+          "minWidth": "100px",
+          "startWithNewLine": false,
+          "title": {
+            "pt-br": "Adicionar: \"Riscos Aceitos\""
+          },
+          "description": {
+            "pt-br": "Especifique."
+          },
+          "hideNumber": true
+        },
+        {
+          "type": "text",
+          "name": "Adicionar risco excluido",
+          "minWidth": "100px",
+          "startWithNewLine": false,
+          "title": {
+            "pt-br": "Adicionar: \"Riscos Excluídos\""
+          },
+          "description": {
+            "pt-br": "Especifique."
+          },
+          "hideNumber": true
+        }
+      ]
+    },
+    {
+      "name": "page3",
+      "visibleIf": "{question2} = False",
+      "title": {
+        "default": "Interesse Segurável\r\n",
+        "pt-br": "Garantias"
+      },
+      "description": {
+        "pt-br": "Define o que será coberto, os limites financeiros de pagamento e as condições em que a seguradora fará a indenização ao segurado."
+      },
+      "navigationButtonsVisibility": "show",
+      "elements": [
+        {
+          "type": "tagbox",
+          "name": "Garantias Oferecidas",
+          "title": {
+            "pt-br": "Garantias Oferecidas\n"
+          },
+          "description": {
+            "default": "Descreva...",
+            "pt-br": "Especifique."
+          },
+          "choices": [
+            {
+              "value": "Item 1",
+              "text": " pagamento ao segurado do valor correspondente ao crédito tributário atrelado ao Objeto Principal"
+            },
+            {
+              "value": "Item 2",
+              "text": {
+                "pt-br": "pagamento ao segurado do valor correspondente às faturas de energia elétrica atreladas ao Objeto Principal"
+              }
+            },
+            {
+              "value": "Item 3",
+              "text": {
+                "pt-br": "pagamento ao segurado do valor correspondente ao crédito tributário atrelado ao Objeto Principal"
+              }
+            },
+            {
+              "value": "Item 4",
+              "text": "pagamento ao segurado do valor correspondente à multa contratual atrelada ao descumprimento da obrigação de construir prevista na(s) cláusula(s) [X,YZ] do Objeto Principal"
+            },
+            {
+              "value": "Item 5",
+              "text": "pagamento ao segurado do valor correspondente à multa contratual atrelada ao descumprimento da obrigação de fornecer [MERCADORIA/SERVIÇO] prevista na(s) cláusula(s) [X,YZ] do Objeto Principal"
+            },
+            {
+              "value": "Item 6",
+              "text": "pagamento ao segurado do valor correspondente à obrigação pecuniária decorrente da recusa da assinatura do contrato, pelo Tomador, dentro das condições previstas em um Edital de Licitação ou fora do prazo estabelecido no instrumento convocatório"
+            },
+            {
+              "value": "Item 7",
+              "text": {
+                "default": "Pagamento dos valores referentes as multas e",
+                "pt-br": "Pagamento dos valores referentes as multas e indenizações aplicados pelo Segurado ao Tomador em virtude da recusa da assinatura ou do não comparecimento no prazo estipulado"
+              }
+            },
+            {
+              "value": "Item 8",
+              "text": "pagamento ao segurado, das obrigações pecuniárias devidas e retidas pelo tomador"
+            },
+            {
+              "value": "Item 9",
+              "text": "pagamento ao segurado do valor correspondente à multa contratual atrelada ao descumprimento da obrigação defornecer [SERVIÇOS/PRODUTOS] prevista na(s) cláusula(s) [X,YZ] do Objeto Principal"
+            },
+            {
+              "value": "Item 10",
+              "text": "pagamento ao segurado do valor correspondente ao depósito recursal. "
+            },
+            {
+              "value": "Item 11",
+              "text": "pagamento de valores decorrentes de responsabilidade estranha ao Objeto Principal"
+            },
+            {
+              "value": "Item 12",
+              "text": "pagamento ao segurado do valor integral da decisão judicial (valor principal e encargos acessórios da dívida) estabelecida no Objeto Principal"
+            },
+            {
+              "value": "Item 13",
+              "text": "pagamento de Lucros Cessantes em virtude do inadimplemento absoluto do tomador"
+            },
+            {
+              "value": "Item 14",
+              "text": "pagamento ao segurado do valor correspondente às faturas de energia elétrica alheias ao contrato de comercialização indicado (Objeto Principal)"
+            },
+            {
+              "value": "Item 15",
+              "text": "pagamento ao segurado do valor correspondente perdas e danos "
+            },
+            {
+              "value": "Item 16",
+              "text": "pagamento ao segurado do valor integral da decisão administrativa (valor principal e encargos acessórios da dívida) estabelecida no Objeto Principal"
+            }
+          ],
+          "colCount": 2
+        },
+        {
+          "type": "tagbox",
+          "name": "Garantias Não Incluídas",
+          "startWithNewLine": false,
+          "title": {
+            "pt-br": "Garantias Não Incluídas\n"
+          },
+          "description": {
+            "default": "Descreva...",
+            "pt-br": "Especifique."
+          },
+          "hideNumber": true,
+          "choices": [
+            {
+              "value": "Item 1",
+              "text": " pagamento ao segurado do valor correspondente ao crédito tributário atrelado ao Objeto Principal"
+            },
+            {
+              "value": "Item 2",
+              "text": {
+                "pt-br": "pagamento ao segurado do valor correspondente às faturas de energia elétrica atreladas ao Objeto Principal"
+              }
+            },
+            {
+              "value": "Item 3",
+              "text": {
+                "pt-br": "pagamento ao segurado do valor correspondente ao crédito tributário atrelado ao Objeto Principal"
+              }
+            },
+            {
+              "value": "Item 4",
+              "text": "pagamento ao segurado do valor correspondente à multa contratual atrelada ao descumprimento da obrigação de construir prevista na(s) cláusula(s) [X,YZ] do Objeto Principal"
+            },
+            {
+              "value": "Item 5",
+              "text": "pagamento ao segurado do valor correspondente à multa contratual atrelada ao descumprimento da obrigação de fornecer [MERCADORIA/SERVIÇO] prevista na(s) cláusula(s) [X,YZ] do Objeto Principal"
+            },
+            {
+              "value": "Item 6",
+              "text": "pagamento ao segurado do valor correspondente à obrigação pecuniária decorrente da recusa da assinatura do contrato, pelo Tomador, dentro das condições previstas em um Edital de Licitação ou fora do prazo estabelecido no instrumento convocatório"
+            },
+            {
+              "value": "Item 7",
+              "text": {
+                "default": "Pagamento dos valores referentes as multas e",
+                "pt-br": "Pagamento dos valores referentes as multas e indenizações aplicados pelo Segurado ao Tomador em virtude da recusa da assinatura ou do não comparecimento no prazo estipulado"
+              }
+            },
+            {
+              "value": "Item 8",
+              "text": "pagamento ao segurado, das obrigações pecuniárias devidas e retidas pelo tomador"
+            },
+            {
+              "value": "Item 9",
+              "text": "pagamento ao segurado do valor correspondente à multa contratual atrelada ao descumprimento da obrigação defornecer [SERVIÇOS/PRODUTOS] prevista na(s) cláusula(s) [X,YZ] do Objeto Principal"
+            },
+            {
+              "value": "Item 10",
+              "text": "pagamento ao segurado do valor correspondente ao depósito recursal. "
+            },
+            {
+              "value": "Item 11",
+              "text": "pagamento de valores decorrentes de responsabilidade estranha ao Objeto Principal"
+            },
+            {
+              "value": "Item 12",
+              "text": "pagamento ao segurado do valor integral da decisão judicial (valor principal e encargos acessórios da dívida) estabelecida no Objeto Principal"
+            },
+            {
+              "value": "Item 13",
+              "text": "pagamento de Lucros Cessantes em virtude do inadimplemento absoluto do tomador"
+            },
+            {
+              "value": "Item 14",
+              "text": "pagamento ao segurado do valor correspondente às faturas de energia elétrica alheias ao contrato de comercialização indicado (Objeto Principal)"
+            },
+            {
+              "value": "Item 15",
+              "text": "pagamento ao segurado do valor correspondente perdas e danos "
+            },
+            {
+              "value": "Item 16",
+              "text": "pagamento ao segurado do valor integral da decisão administrativa (valor principal e encargos acessórios da dívida) estabelecida no Objeto Principal"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "name": "Adicionar nova garantia",
+          "minWidth": "100px",
+          "startWithNewLine": false,
+          "title": {
+            "pt-br": "Adicionar: \"Garantias Oferecidas\""
+          },
+          "description": {
+            "pt-br": "Especifique."
+          },
+          "hideNumber": true
+        },
+        {
+          "type": "text",
+          "name": "Adicionar garantia nao incluidas",
+          "minWidth": "100px",
+          "startWithNewLine": false,
+          "title": {
+            "pt-br": "Adicionar: \"Garantias Não Incluídas\""
+          },
+          "description": {
+            "pt-br": "Especifique."
+          },
+          "hideNumber": true
+        }
+      ]
+    },
+    {
+      "name": "Imprimir",
+      "elements": [
+        {
+          "type": "html",
+          "name": "question5",
+          "visible": false,
+          "html": {
+            "pt-br": "<h6>📜 Pré-visualização da cobertura criada:</h6>\n✅Esta cobertura cobre apenas: {Abrange}  {Adicionar novo interesse segurável}<br>\n✅Contra os riscos de: {Riscos Aceitos} {Adicionar novo risco} <br>\n✅Garante-se exclusivamente: {Garantias Oferecidas} {Adicionar nova garantia} <br> <br>\n\n🚫Não é protegido por esta cobertura: {Não Abrange} {Adicionar nao abrangente} <br>\n🚫Não se garante os prejuízos de: {Garantias Não Incluídas} {Adicionar garantia nao incluidas} <br>\n🚫E são riscos excluídos: {Riscos Excluídos} {Adicionar risco excluido}"
+          }
+        },
+        {
+          "type": "html",
+          "name": "question1",
+          "html": {
+            "pt-br": "<!-- Exibição da pré-visualização -->\n<h6>📜Pré-visualização da cobertura criada:</h6>\n<div id=\"previewExtrato\" style=\"border: 1px solid #ccc; padding: 10px; border-radius: 5px; background: #f9f9f9;\">\n    ✅Esta cobertura cobre apenas: {Abrange}  {Adicionar novo interesse segurável}<br>\n    ✅Contra os riscos de: {Riscos Aceitos} {Adicionar novo risco} <br>\n    ✅Garante-se exclusivamente: {Garantias Oferecidas} {Adicionar nova garantia} <br> <br>\n\n    🚫Não é protegido por esta cobertura: {Não Abrange} {Adicionar nao abrangente} <br>\n    🚫Não se garante os prejuízos de: {Garantias Não Incluídas} {Adicionar garantia nao incluidas} <br>\n    🚫São riscos excluídos: {Riscos Excluídos} {Adicionar risco excluido} \n</div>"
+          }
+        },
+        {
+          "type": "boolean",
+          "name": "question2",
+          "title": {
+            "pt-br": "Deseja Imprimir?"
+          },
+          "description": {
+            "pt-br": "Se sim, após selecionar, clique CTRL P"
+          },
+          "defaultValue": "false"
+        }
+      ]
+    }
+  ],
+  "questionsOnPageMode": "singlePage",
+  "showPreviewBeforeComplete": "showAnsweredQuestions"
+}
