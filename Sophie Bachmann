@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <script src="https://unpkg.com/survey-core/survey.core.min.js"></script>
+    <script src="https://unpkg.com/survey-knockout/survey.ko.min.js"></script>
+    <script src="https://unpkg.com/survey-jquery/survey.jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/survey-core/defaultV2.min.css" />
+</head>
+<body>
+
+<div id="surveyContainer"></div>
+
+<script>
+    const json = {
+        "title": "Meu Formulário SurveyJS",
+        "pages": [
+            {
+                "name": "page1",
+                "elements": [
+                    {
+                        "type": "radiogroup",
+                        "name": "question1",
+                        "title": "Qual sua cor favorita?",
+                        "choices": ["Vermelho", "Azul", "Verde"]
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": "question2",
+                        "title": "Escolha seus hobbies:",
+                        "choices": ["Ler", "Esportes", "Música"]
+                    }
+                ]
+            }
+        ]
+    };
+
+    const survey = new Survey.Model(json);
+    $(document).ready(() => {
+        $("#surveyContainer").Survey({ model: survey });
+    });
+</script>
+
+</body>
+</html>
